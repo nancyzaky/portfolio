@@ -188,6 +188,15 @@ const Project = () => {
         <ProjectS />
 
         <ProjectT />
+        <div
+          className="line"
+          style={{
+            marginTop: "7rem",
+            marginBottom: "7rem",
+            width: "90%",
+            backgroundColor: "grey",
+          }}
+        ></div>
         <Forth />
       </div>
     </>
