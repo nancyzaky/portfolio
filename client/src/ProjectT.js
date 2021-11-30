@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import { GoLink } from "react-icons/go";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-
+import Forth from "./Forth";
 const ProjectT = () => {
   return (
     <div className="third-cont">
@@ -85,7 +85,10 @@ const ProjectT = () => {
               }}
             >
               <h3 style={{ fontSize: "15px" }}> Website Link</h3>
-              <a href="#" target="blank">
+              <a
+                href="https://github.com/nancyzaky/fashion-store-app"
+                target="blank"
+              >
                 <GoLink
                   style={{
                     fontSize: "30px",
@@ -130,7 +133,7 @@ const ProjectT = () => {
       >
         <div
           style={{
-            width: "50%",
+            width: "60%",
             textAlign: "center",
             paddingRight: "2rem",
             paddingLeft: "2rem",
@@ -140,7 +143,8 @@ const ProjectT = () => {
             color: "white",
             boxShadow: "0px 10px 18px #717273",
             padding: "20px",
-            // marginLeft: "1rem",
+            position: "absolute",
+            marginRight: "3rem",
           }}
         >
           Dressify app was my first experience developing a full stack web app,

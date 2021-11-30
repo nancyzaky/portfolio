@@ -14,17 +14,16 @@ body,
   padding: 0;
 }
 body {
-  background-image: url("https://www.teahub.io/photos/full/94-949996_silver-macbook-turned-on-macbook-pro-turned-on.jpg");
   background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .header {
   position: absolute;
   color: rgb(103, 222, 202);
@@ -48,7 +47,6 @@ code {
   width: 20rem;
   margin-left: 4rem;
   background-color: rgb(236, 213, 241);
-  /* margin-bottom: 2rem; */
 }
 .header-top {
   position: absolute;
@@ -58,7 +56,6 @@ code {
   transform: translate(-50%, -50%);
   font-weight: lighter;
   font-size: 20px;
-  /* color: rgb(103, 222, 202); */
   font-weight: bold;
 }
 .header-bottom {
@@ -142,9 +139,9 @@ line {
 .link:hover {
   color: rgb(134, 243, 109);
 }
-.project-cont {
+/* .project-cont {
   width: 100%;
-  height: 800vh;
+  height: auto;
 
   background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
   background-size: cover;
@@ -157,30 +154,14 @@ line {
   padding-top: 4rem;
   display: grid;
   margin-right: 4rem;
+}
 
-  /* flex-wrap: wrap; */
-}
-/* @media screen and (max-width: 900px) {
-  .details-cont {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 450px) {
-  .details-cont {
-    display: flex;
-  }
-} */
 .left-cont {
   display: flex;
   max-height: 80vh;
   margin-right: 4rem;
   width: 90%;
 }
-/* @media screen and (max-width: 992px) {
-  .left-cont {
-    flex: 25%;
-  }
-} */
 
 .right-cont {
   border-radius: 0.4rem;
@@ -188,16 +169,10 @@ line {
   color: white;
   margin-left: 0.5rem;
   margin-top: 3rem;
-  /* display: flex; */
   width: 93%;
-  /* flex: 1%; */
+  max-height: 80vh;
 }
-/* @media screen and (max-width: 992px) {
-  .right-cont {
-    flex: 30%;
-  }
-} */
-/* ////////////////////////////////// */
+
 @media screen and (max-width: 992px) {
   .second-cont {
     flex-direction: column;
@@ -215,16 +190,15 @@ line {
   width: 98%;
   margin-left: 4rem;
   margin-right: 4rem;
+  max-height: 80vh;
 }
 @media screen and (max-width: 992px) {
   .second-right {
-    /* flex: 50%; */
     flex-basis: 25%;
   }
 }
 @media screen and (max-width: 992px) {
   .second-left {
-    /* flex: 50%; */
     flex-basis: 25%;
   }
 }
@@ -234,9 +208,10 @@ line {
   color: white;
   flex-basis: 35%;
   min-height: 70vh;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
   max-width: 85%;
   margin-right: 3rem;
+  max-height: 80vh;
 }
 .left-container {
   border-radius: 0.4rem;
@@ -244,6 +219,7 @@ line {
   padding: 20px;
   box-shadow: 0px 10px 18px #717273;
   width: 85%;
+  max-height: 80vh;
 }
 .second-left {
   border-radius: 0.4rem;
@@ -253,11 +229,13 @@ line {
   display: grid;
   flex-basis: 50%;
   box-shadow: 0px 10px 18px #717273;
+  max-height: 80vh;
 }
 .second-list {
   font-size: 20px;
   font-weight: light;
   letter-spacing: 3px;
+  max-height: 80vh;
 }
 
 .tech-list {
@@ -265,6 +243,7 @@ line {
   color: rgb(212, 203, 203);
   padding-right: 3rem;
   padding-bottom: 1rem;
+  max-height: 80vh;
 }
 .tech-cont-flex {
   width: 90%;
@@ -304,10 +283,13 @@ line {
 }
 
 .forth-cont {
-  display: flex;
-
   border: 0.2rem solid red;
-  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 90%;
   margin-left: 4rem;
   margin-right: 4rem;
-}
+  min-height: 60vh;
+  margin-top: 8rem;
+} */
