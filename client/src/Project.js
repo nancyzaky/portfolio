@@ -188,8 +188,8 @@ const Project = () => {
         <ProjectS />
 
         <ProjectT />
+        <Forth />
       </div>
-      <Forth />
     </>
   );
 };

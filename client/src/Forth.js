@@ -13,7 +13,13 @@ const Forth = () => {
       >
         4.GLOW UP
       </h3>
-      <div style={{ border: "0.2rem solid red", width: "90%" }}></div>
+
+      <div
+        style={{ border: "0.2rem solid red", width: "90%", height: "100vh" }}
+      >
+        <div></div>
+        <div></div>
+      </div>
     </>
   );
 };

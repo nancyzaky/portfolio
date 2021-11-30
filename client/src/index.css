@@ -8,7 +8,7 @@ body,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  height: 100vh;
+  height: auto;
   top: 0;
   left: 0;
   padding: 0;
@@ -139,10 +139,10 @@ line {
 .link:hover {
   color: rgb(134, 243, 109);
 }
-/* .project-cont {
+.project-cont {
   width: 100%;
   height: auto;
-
+  padding-bottom: 4rem;
   background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,12 +284,14 @@ line {
 
 .forth-cont {
   border: 0.2rem solid red;
+  background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
   display: flex;
   flex-wrap: wrap;
   height: auto;
   width: 90%;
   margin-left: 4rem;
   margin-right: 4rem;
+  height: auto;
   min-height: 60vh;
-  margin-top: 8rem;
-} */
+  /* margin-top: 8rem; */
+}
