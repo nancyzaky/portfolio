@@ -13,6 +13,10 @@ body,
   left: 0;
   padding: 0;
   background-color: #101010;
+  background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 /* body {
   background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
