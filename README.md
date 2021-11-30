@@ -7,6 +7,15 @@ backend together, and easily deploy them to Heroku.
 
 ## Requirements
 
+,
+?,
+
+  <!-- "dependencies": {
+    "dotenv": "^10.0.0",
+    "react-icons": "^4.3.1",
+    "serve": "^13.0.2"
+  } -->
+
 - Ruby 2.7.4
 - NodeJS (v16), and npm
 - Heroku CLI
