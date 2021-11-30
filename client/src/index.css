@@ -8,11 +8,297 @@ body,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  height: 100%;
-  /* background-color: black; */
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 0;
 }
-
+body {
+  background-image: url("https://www.teahub.io/photos/full/94-949996_silver-macbook-turned-on-macbook-pro-turned-on.jpg");
+  background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  position: absolute;
+  color: rgb(103, 222, 202);
+  top: 20%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+.project-header {
+  color: rgb(103, 222, 202);
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+.line {
+  height: 1px;
+  width: 20rem;
+  margin-left: 4rem;
+  background-color: rgb(236, 213, 241);
+  /* margin-bottom: 2rem; */
+}
+.header-top {
+  position: absolute;
+  color: white;
+  top: 15%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+  font-size: 20px;
+  /* color: rgb(103, 222, 202); */
+  font-weight: bold;
+}
+.header-bottom {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  width: 50%;
+}
+.toggle-btn {
+  position: absolute;
+  float: right;
+  margin: 1.4em;
+  width: 40px;
+  height: 12px;
+  right: 0;
+  padding: 1em;
+  z-index: 999;
+}
+
+span.one {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: white;
+}
+span.two {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  margin-top: 12px;
+  background-color: white;
+}
+
+.menu {
+  z-index: 0;
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+  top: -100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+.data {
+  padding: 8em 0 0 2em;
+  text-align: left;
+  z-index: 3;
+}
+
+.nav-list {
+  color: white;
+  font-size: 42px;
+  letter-spacing: 3px;
+  padding-bottom: 1rem;
+}
+
+circle,
+rect,
+line {
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(134, 243, 109);
+}
+.project-cont {
+  width: 100%;
+  height: 800vh;
+
+  background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.details-cont {
+  height: auto;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  display: grid;
+  margin-right: 4rem;
+
+  /* flex-wrap: wrap; */
+}
+/* @media screen and (max-width: 900px) {
+  .details-cont {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .details-cont {
+    display: flex;
+  }
+} */
+.left-cont {
+  display: flex;
+  max-height: 80vh;
+  margin-right: 4rem;
+  width: 90%;
+}
+/* @media screen and (max-width: 992px) {
+  .left-cont {
+    flex: 25%;
+  }
+} */
+
+.right-cont {
+  border-radius: 0.4rem;
+  box-shadow: 0px 10px 18px #717273;
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 3rem;
+  /* display: flex; */
+  width: 93%;
+  /* flex: 1%; */
+}
+/* @media screen and (max-width: 992px) {
+  .right-cont {
+    flex: 30%;
+  }
+} */
+/* ////////////////////////////////// */
+@media screen and (max-width: 992px) {
+  .second-cont {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .second-cont {
+    display: flex;
+  }
+}
+.second-cont {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 98%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+@media screen and (max-width: 992px) {
+  .second-right {
+    /* flex: 50%; */
+    flex-basis: 25%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .second-left {
+    /* flex: 50%; */
+    flex-basis: 25%;
+  }
+}
+.second-right {
+  border-radius: 0.4rem;
+  box-shadow: 0px 10px 18px #717273;
+  color: white;
+  flex-basis: 35%;
+  min-height: 70vh;
+  /* margin-bottom: 2rem; */
+  max-width: 85%;
+  margin-right: 3rem;
+}
+.left-container {
+  border-radius: 0.4rem;
+  min-height: 50vh;
+  padding: 20px;
+  box-shadow: 0px 10px 18px #717273;
+  width: 85%;
+}
+.second-left {
+  border-radius: 0.4rem;
+  min-height: 50vh;
+  padding: 20px;
+  max-width: 80%;
+  display: grid;
+  flex-basis: 50%;
+  box-shadow: 0px 10px 18px #717273;
+}
+.second-list {
+  font-size: 20px;
+  font-weight: light;
+  letter-spacing: 3px;
+}
+
+.tech-list {
+  font-size: 15px;
+  color: rgb(212, 203, 203);
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+}
+.tech-cont-flex {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .tech-cont-flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tech-cont-flex {
+    display: flex;
+  }
+}
+.third-cont {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 90%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  min-height: 60vh;
+}
+@media screen and (max-width: 992px) {
+  .third-cont {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .third-cont {
+    display: flex;
+  }
 }
