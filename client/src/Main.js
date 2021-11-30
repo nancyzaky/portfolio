@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import styled from "styled-components";
 import { OrbitControls, Stats, Text } from "@react-three/drei";
 import * as THREE from "three";
 import { TextureLoader } from "three";
