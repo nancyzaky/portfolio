@@ -302,3 +302,12 @@ line {
     display: flex;
   }
 }
+
+.forth-cont {
+  display: flex;
+
+  border: 0.2rem solid red;
+  width: 95%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
