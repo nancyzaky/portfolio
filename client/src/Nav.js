@@ -7,10 +7,9 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   const [clicked, setClicked] = useState(false);
   let t1;
-  useEffect(() => {
-    t1 = new TimelineLite({ paused: true });
-    // t1.restart();
+  t1 = new TimelineLite({ paused: true });
 
+  useEffect(() => {
     t1.to(".one", 0.8, {
       y: 6,
       rotation: 45,
@@ -35,7 +34,9 @@ const Nav = () => {
       0.3
     );
     t1.reverse();
+    // t1.reversed(!t1.reversed());
   }, []);
+
   return (
     <div
       style={{
@@ -91,6 +92,7 @@ const Nav = () => {
         className="toggle-btn"
         onClick={() => {
           console.log("clicked");
+
           t1.reversed(!t1.reversed());
         }}
       >
@@ -140,8 +142,8 @@ const Nav = () => {
             <li
               className="nav-list"
               onClick={() => {
-                t1.reversed(!t1.reversed());
-                // setClicked(!clicked);
+                // t1.reversed(!t1.reversed());
+                setClicked(!clicked);
               }}
             >
               <a
