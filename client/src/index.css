@@ -78,7 +78,7 @@ code {
   height: auto;
 }
 .toggle-btn {
-  position: absolute;
+  position: sticky;
   float: right;
   margin: 1.4em;
   width: 40px;
