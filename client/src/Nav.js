@@ -92,8 +92,10 @@ const Nav = () => {
         className="toggle-btn"
         onClick={() => {
           console.log("clicked");
+          t1.play();
+          // setClicked(!clicked);
 
-          t1.reversed(!t1.reversed());
+          // t1.reversed(!t1.reversed());
         }}
       >
         <span className="one"></span>

@@ -25,14 +25,14 @@ const Forth = () => {
               height: "50%",
             }}
           >
-            {/* <ReactPlayer
+            <ReactPlayer
               muted={true}
               playing={true}
               controls={true}
               url={`https://www.youtube.com/watch?v=va0AYjBYYh0&origin=http://localhost:4000`}
               width="100%"
               height="100%"
-            /> */}
+            />
           </motion.section>
           <section className="makeup-bottom">
             {/* <p>
@@ -59,14 +59,14 @@ const Forth = () => {
               height: "50%",
             }}
           >
-            {/* <ReactPlayer
+            <ReactPlayer
               muted={true}
               playing={true}
               controls={true}
               url={`https://www.youtube.com/watch?v=VEqInyXUWCg&t=76s&origin=http://localhost:4000`}
               width="100%"
               height="100%"
-            /> */}
+            />
           </motion.section>
           <section className="makeup-bottom">
             <p></p>
