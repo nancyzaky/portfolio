@@ -9,7 +9,7 @@ const ProjectT = () => {
   return (
     <div className="third-cont">
       <div
-        className="line"
+        className="line-wide"
         style={{
           marginTop: "8rem",
           // marginBottom: "7rem",
@@ -126,16 +126,21 @@ const ProjectT = () => {
           </ul>
         </li>
       </ul>
-      <section
+      {/* <section
         style={{
           height: "30vh",
           marginTop: "3rem",
           width: "90%",
         }}
-      >
+      > */}
+      <div style={{ height: "auto", width: "100%", display: "grid" }}>
         <div
           style={{
-            width: "60%",
+            width: "50%",
+            marginTop: "3rem",
+            borderRadius: "0.4rem",
+            maxHeight: "110vh",
+            height: "auto",
             textAlign: "center",
             paddingRight: "2rem",
             paddingLeft: "2rem",
@@ -145,19 +150,24 @@ const ProjectT = () => {
             color: "white",
             boxShadow: "0px 10px 18px #717273",
             padding: "20px",
-            position: "absolute",
+            // position: "fixed",
             marginRight: "3rem",
           }}
         >
-          Dressify app was my first experience developing a full stack web app,
-          working for the first time with databases, creating my backend logic,
-          APIs, and Servers. Not only I have learned alot about Backend
-          development by building Dressify, but also I improved my
-          JavaScript/React skills immensely.<br></br> Dressify features a
-          modern, easy to navigate shopping app. Make an outfit by the drag and
-          drop feature, make a wish list, shop, filter categories and more.
+          <p style={{ height: "auto" }}>
+            Dressify app was my first experience developing a full stack web
+            app, working for the first time with databases, creating my backend
+            logic, APIs, and Servers. Not only I have learned alot about Backend
+            development by building Dressify, but also I improved my
+            JavaScript/React skills immensely.<br></br> Dressify features a
+            modern, easy to navigate shopping app. Make an outfit by the drag
+            and drop feature, make a wish list, shop, filter categories and
+            more.
+          </p>
         </div>
-      </section>
+        {/* </section> */}
+        {/* <Forth /> */}
+      </div>
     </div>
   );
 };

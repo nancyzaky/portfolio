@@ -94,6 +94,7 @@ const Nav = () => {
       <div
         className="toggle-btn"
         onClick={() => {
+          console.log("clicked");
           t1.reversed(!t1.reversed());
         }}
       >

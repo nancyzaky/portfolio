@@ -13,17 +13,15 @@ body,
   left: 0;
   padding: 0;
 
-  /* background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM="); */
-
   overflow-x: hidden;
   background-color: #201f1f;
 }
-/* body {
+body {
   background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
-} */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -162,6 +160,21 @@ line {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  background-image: radial-gradient(
+    circle,
+    #9b9296,
+    #888187,
+    #767177,
+    #646168,
+    #525259,
+    #47474e,
+    #3c3d43,
+    #323338,
+    #2b2b2f,
+    #232426,
+    #1c1c1d,
+    #151515
+  );
 }
 .details-cont {
   height: auto;
@@ -186,7 +199,7 @@ line {
   color: white;
   margin-left: 0.5rem;
   margin-top: 3rem;
-  width: 93%;
+  width: 98%;
   max-height: 80vh;
 }
 
@@ -204,7 +217,7 @@ line {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  width: 90%;
+  width: 95%;
   margin-left: 4rem;
   margin-right: 4rem;
   max-height: 200vh;
@@ -235,7 +248,7 @@ line {
   min-height: 50vh;
   padding: 20px;
   box-shadow: 0px 10px 18px #717273;
-  width: 85%;
+  width: 95%;
   max-height: 80vh;
 }
 .second-left {
@@ -282,33 +295,34 @@ line {
 .third-cont {
   display: flex;
   flex-wrap: wrap;
-  /* height: auto; */
+  height: auto;
   width: 90%;
   margin-left: 4rem;
   margin-right: 4rem;
   min-height: 60vh;
-}
-@media screen and (max-width: 992px) {
-  .third-cont {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 450px) {
-  .third-cont {
-    display: flex;
-  }
 }
 
 .forth-cont {
+  min-height: 300vh;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  margin-left: 6rem;
+}
+.column {
+  min-width: max-content;
+  width: auto;
+  height: auto;
+  max-height: 130vh;
+  margin-right: 2rem;
+  box-shadow: 0px 10px 18px #717273;
+  padding: 20px;
+  border-radius: 0.4rem;
+}
+.makeup-bottom {
   border: 0.2rem solid red;
-  background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  width: 90%;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  height: auto;
-  min-height: 60vh;
-  /* margin-top: 8rem; */
+  height: 50vh;
+  width: 100%;
+  margin-top: 2rem;
 }
