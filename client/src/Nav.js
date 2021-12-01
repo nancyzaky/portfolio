@@ -11,30 +11,29 @@ const Nav = () => {
 
   useEffect(() => {
     t1.to(".one", 0.8, {
-      y: 6,
-      rotation: 45,
+      y: "6",
+      rotation: "45",
       ease: "Expo.easeInOut",
     });
     t1.to(".two", 0.8, {
-      y: -6,
-      rotation: -45,
+      y: "-6",
+      rotation: "-45",
       ease: "Expo.easeInOut",
-      delay: -0.8,
+      delay: "-0.8",
     });
     t1.to(".menu", 2, {
       top: "0%",
       ease: "Expo.easeInOut",
-      delay: -0.2,
+      delay: "-0.2",
     });
 
     t1.staggerFrom(
       ".menu ul li",
       2,
-      { x: -200, opacity: 0, duration: 1.5, ease: "Expo.easeInOut" },
+      { x: "-200", opacity: "0", duration: "1.5", ease: "Expo.easeInOut" },
       0.3
     );
     t1.reverse();
-    // t1.reversed(!t1.reversed());
   }, []);
 
   return (
@@ -92,10 +91,8 @@ const Nav = () => {
         className="toggle-btn"
         onClick={() => {
           console.log("clicked");
-          t1.play();
-          // setClicked(!clicked);
-
-          // t1.reversed(!t1.reversed());
+          // t1.play();
+          t1.reversed(!t1.reversed());
         }}
       >
         <span className="one"></span>
