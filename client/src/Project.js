@@ -43,7 +43,7 @@ const Project = () => {
           Projects I've built
         </h3>
         <div className="line"></div>
-        <div className="details-cont">
+        <div className="details-cont" style={{ border: "0.2rem solid red" }}>
           <section className="left-container">
             <ReactPlayer
               muted="true"

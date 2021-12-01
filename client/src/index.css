@@ -74,9 +74,10 @@ code {
   font-weight: bold;
   letter-spacing: 3px;
   width: 50%;
+  height: auto;
 }
 .toggle-btn {
-  position: absolute;
+  position: fixed;
   float: right;
   margin: 1.4em;
   width: 40px;
@@ -142,7 +143,7 @@ line {
   text-decoration: none;
 }
 .link:hover {
-  color: rgb(134, 243, 109);
+  color: rgb(236, 243, 134);
 }
 .project-cont {
   width: 100%;
@@ -157,15 +158,17 @@ line {
   height: auto;
   padding-left: 4rem;
   padding-top: 4rem;
-  display: grid;
+  display: flex;
   margin-right: 4rem;
+  width: 80%;
+  flex-wrap: wrap;
 }
 
 .left-cont {
   display: flex;
   max-height: 80vh;
-  margin-right: 4rem;
-  width: 90%;
+  /* margin-right: 4rem; */
+  width: 100%;
 }
 
 .right-cont {
@@ -192,10 +195,10 @@ line {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  width: 98%;
+  width: 95%;
   margin-left: 4rem;
   margin-right: 4rem;
-  max-height: 80vh;
+  max-height: 200vh;
 }
 @media screen and (max-width: 992px) {
   .second-right {
@@ -209,10 +212,11 @@ line {
 }
 .second-right {
   border-radius: 0.4rem;
+  border: 0.2rem solid red;
   box-shadow: 0px 10px 18px #717273;
   color: white;
   flex-basis: 35%;
-  min-height: 70vh;
+  min-height: 80vh;
   margin-bottom: 2rem;
   max-width: 85%;
   margin-right: 3rem;

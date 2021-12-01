@@ -148,6 +148,8 @@ const ProjectS = () => {
             alignItems: "center",
             justifyContent: "center",
             width: "100%",
+            height: "auto",
+            border: "0.2rem solid red",
           }}
         >
           <li

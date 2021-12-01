@@ -38,7 +38,7 @@ const Nav = () => {
     t1.reverse();
   }, [clicked, setClicked]);
   return (
-    <div style={{ width: "100%", height: "90vh" }}>
+    <div style={{ width: "100%", height: "100vh" }}>
       <h5
         className="header-top"
         initial={{ opacity: 0.1, y: "100%" }}
