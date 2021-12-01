@@ -38,6 +38,7 @@ code {
   font-weight: lighter;
   font-size: 48px;
   letter-spacing: 4px;
+  /* padding-bottom: 4rem; */
 }
 .project-header {
   color: rgb(103, 222, 202);
@@ -54,11 +55,18 @@ code {
   /* margin-right: 4rem; */
   background-color: rgb(236, 213, 241);
 }
+.line-wide {
+  height: 1px;
+  width: 17%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: rgb(236, 213, 241);
+}
 .header-top {
   position: absolute;
-  color: white;
-  top: 15%;
-  left: 48%;
+  color: pink;
+  top: 7%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-weight: lighter;
   font-size: 20px;
@@ -67,14 +75,14 @@ code {
 .header-bottom {
   position: absolute;
   color: white;
-  top: 35%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: lighter;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 3px;
-  width: 50%;
+  width: 70%;
   height: auto;
 }
 .toggle-btn {

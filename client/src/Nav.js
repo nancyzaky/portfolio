@@ -43,7 +43,7 @@ const Nav = () => {
         width: "100%",
         minHeight: "100vh",
         height: "auto",
-        zIndex: "5",
+        zIndex: "999999",
         // position: "relative",
         backgroundImage:
           "url(https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=)",
@@ -51,6 +51,21 @@ const Nav = () => {
         backgroundRepeat: "noRepeat",
       }}
     >
+      <h3
+        style={{
+          color: "rgb(103, 222, 202)",
+          letterSpacing: "4px",
+          paddingTop: "1rem",
+          paddingLeft: "4.3rem",
+          width: "100%",
+          top: "90%",
+          // border: "0.2rem solid red",
+
+          position: "absolute",
+        }}
+      >
+        Projects I've built
+      </h3>
       <h5
         className="header-top"
         initial={{ opacity: 0.1, y: "100%" }}
@@ -76,6 +91,15 @@ const Nav = () => {
         {" "}
         Nancy Zaky
       </motion.h1>
+      <div
+        className="toggle-btn"
+        onClick={() => {
+          t1.reversed(!t1.reversed());
+        }}
+      >
+        <span className="one"></span>
+        <span className="two"></span>
+      </div>
       <motion.h5
         className="header-bottom"
         initial={{ opacity: "0.1", y: "-200%" }}
@@ -86,21 +110,12 @@ const Nav = () => {
           duration: "3",
         }}
       >
-        <ImQuotesLeft /> I'm a full stack web developer, I love Exploring other
-        technologies and frameworks with the goal of constantly and consistently
-        refining my coding skills. I love to build pretty things and I love to
-        solve problems and that's why coding has been my true passion.
+        <ImQuotesLeft /> I'm a full stack web developer, I love Exploring
+        technologies and frameworks with the goal of constantly refining my
+        coding skills. I love to build pretty things and I love to solve
+        problems and that's why coding has been my true passion.
         <ImQuotesRight />
       </motion.h5>
-      <div
-        className="toggle-btn"
-        onClick={() => {
-          t1.reversed(!t1.reversed());
-        }}
-      >
-        <span className="one"></span>
-        <span className="two"></span>
-      </div>
 
       <div className="menu">
         <div className="data">
@@ -184,20 +199,6 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <div>
-        <h3
-          style={{
-            color: "rgb(103, 222, 202)",
-            letterSpacing: "4px",
-            paddingTop: "1rem",
-            paddingLeft: "4rem",
-            top: "90%",
-            position: "absolute",
-          }}
-        >
-          Projects I've built
-        </h3>
       </div>
     </div>
   );

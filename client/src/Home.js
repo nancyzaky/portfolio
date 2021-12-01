@@ -12,7 +12,7 @@ const Home = () => {
           color: "white",
           display: "grid",
           position: "fixed",
-          top: "28%",
+          top: "18%",
         }}
       >
         <div

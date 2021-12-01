@@ -31,8 +31,8 @@ const Project = () => {
 
   return (
     <>
-      <div className="project-cont" style={{ border: "0.2rem solid red" }}>
-        <div className="line"></div>
+      <div className="project-cont">
+        <div className="line-wide"></div>
         <div className="details-cont">
           <section className="left-container">
             <ReactPlayer

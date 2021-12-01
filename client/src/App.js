@@ -8,13 +8,15 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Resume from "./Resume";
 const App = () => {
   return (
-    <>
+    <div>
+      <Home />
+
       <Router>
-        <Nav />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Nav />
             <Project />
+            {/* <Forth /> */}
           </Route>
 
           <Route exact path="/resume.pdf">
@@ -22,7 +24,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 };
 
