@@ -274,7 +274,7 @@ line {
 .third-cont {
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  /* height: auto; */
   width: 90%;
   margin-left: 4rem;
   margin-right: 4rem;

@@ -10,9 +10,9 @@ const App = () => {
   return (
     <>
       <Router>
+        <Nav />
         <Switch>
           <Route exact path="/">
-            <Nav />
             <Home />
             <Project />
           </Route>
