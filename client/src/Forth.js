@@ -9,7 +9,7 @@ const Forth = () => {
           width: "90%",
           height: "auto",
           display: "flex",
-          marginTop: "6rem",
+          marginTop: "14rem",
         }}
       >
         {" "}

@@ -32,16 +32,6 @@ const Project = () => {
   return (
     <>
       <div className="project-cont">
-        <h3
-          style={{
-            color: "rgb(103, 222, 202)",
-            letterSpacing: "4px",
-            paddingTop: "1rem",
-            paddingLeft: "4rem",
-          }}
-        >
-          Projects I've built
-        </h3>
         <div className="line"></div>
         <div className="details-cont">
           <section className="left-container">
@@ -194,15 +184,7 @@ const Project = () => {
         <ProjectS />
 
         <ProjectT />
-        <div
-          className="line"
-          style={{
-            marginTop: "7rem",
-            marginBottom: "7rem",
-            width: "90%",
-            backgroundColor: "grey",
-          }}
-        ></div>
+
         <Forth />
       </div>
     </>

@@ -41,9 +41,10 @@ const Nav = () => {
     <div
       style={{
         width: "100%",
-        height: "100vh",
+        minHeight: "100vh",
+        height: "auto",
         zIndex: "5",
-        position: "relative",
+        // position: "relative",
         backgroundImage:
           "url(https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=)",
         backgroundSize: "cover",
@@ -183,6 +184,20 @@ const Nav = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div>
+        <h3
+          style={{
+            color: "rgb(103, 222, 202)",
+            letterSpacing: "4px",
+            paddingTop: "1rem",
+            paddingLeft: "4rem",
+            top: "90%",
+            position: "absolute",
+          }}
+        >
+          Projects I've built
+        </h3>
       </div>
     </div>
   );
