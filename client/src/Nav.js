@@ -144,7 +144,8 @@ const Nav = () => {
             <li
               className="nav-list"
               onClick={() => {
-                t1.reversed(!t1.reversed());
+                // t1.reversed(!t1.reversed());
+                setClicked(!clicked);
               }}
             >
               <a

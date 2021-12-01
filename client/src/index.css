@@ -280,6 +280,7 @@ line {
   height: 60px;
   display: flex;
   align-items: center;
+  /* padding-bottom: 2rem; */
 }
 
 @media screen and (max-width: 992px) {

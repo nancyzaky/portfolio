@@ -11,8 +11,7 @@ const ProjectT = () => {
       <div
         className="line-wide"
         style={{
-          marginTop: "8rem",
-          // marginBottom: "7rem",
+          marginTop: "9rem",
           width: "90%",
           backgroundColor: "grey",
         }}
@@ -166,7 +165,6 @@ const ProjectT = () => {
           </p>
         </div>
         {/* </section> */}
-        {/* <Forth /> */}
       </div>
     </div>
   );
