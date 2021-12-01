@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import { motion } from "framer-motion";
-import { gsap, Expo, TimelineLite } from "gsap";
+import { gsap, Expo } from "gsap";
 
 import { Link } from "react-router-dom";
 const Nav = () => {
   const [clicked, setClicked] = useState(false);
   let t1;
-  t1 = new TimelineLite({ paused: true });
+  t1 = gsap.timeline({ paused: true });
 
   useEffect(() => {
     t1.to(".one", 0.8, {
