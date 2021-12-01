@@ -7,7 +7,7 @@ const Forth = () => {
     <>
       <div className="forth-cont">
         {" "}
-        <div class="column">
+        <div className="column">
           <h3
             style={{
               color: "rgb(103, 222, 202)",
@@ -25,14 +25,14 @@ const Forth = () => {
               height: "50%",
             }}
           >
-            <ReactPlayer
-              muted="true"
-              playing="true"
-              controls="true"
-              url="https://www.youtube.com/watch?v=va0AYjBYYh0"
+            {/* <ReactPlayer
+              muted={true}
+              playing={true}
+              controls={true}
+              url={`https://www.youtube.com/watch?v=va0AYjBYYh0&origin=http://localhost:4000`}
               width="100%"
               height="100%"
-            />
+            /> */}
           </motion.section>
           <section className="makeup-bottom">
             {/* <p>
@@ -42,7 +42,7 @@ const Forth = () => {
             </p> */}
           </section>
         </div>
-        <div class="column">
+        <div className="column">
           <h3
             style={{
               color: "rgb(103, 222, 202)",
@@ -59,14 +59,14 @@ const Forth = () => {
               height: "50%",
             }}
           >
-            <ReactPlayer
-              muted="true"
-              playing="true"
-              controls="true"
-              url="https://www.youtube.com/watch?v=VEqInyXUWCg&t=75s"
+            {/* <ReactPlayer
+              muted={true}
+              playing={true}
+              controls={true}
+              url={`https://www.youtube.com/watch?v=VEqInyXUWCg&t=76s&origin=http://localhost:4000`}
               width="100%"
               height="100%"
-            />
+            /> */}
           </motion.section>
           <section className="makeup-bottom">
             <p></p>

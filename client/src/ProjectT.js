@@ -28,14 +28,14 @@ const ProjectT = () => {
         3.Dressify{" "}
       </motion.h3>
       <motion.section className="second-left" style={{ width: "100%" }}>
-        <ReactPlayer
-          muted="true"
-          playing="true"
-          controls="true"
-          url="https://www.youtube.com/watch?v=CycL0dEcMjY&t=62s"
+        {/* <ReactPlayer
+          muted={true}
+          playing={true}
+          controls={true}
+          url={`https://www.youtube.com/watch?v=CycL0dEcMjY&t=62s&origin=http://localhost:4000`}
           width="100%"
           height="100%"
-        />
+        /> */}
       </motion.section>
 
       <ul

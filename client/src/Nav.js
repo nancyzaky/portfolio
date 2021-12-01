@@ -9,42 +9,40 @@ const Nav = () => {
   let t1;
   useEffect(() => {
     t1 = new TimelineLite({ paused: true });
-    t1.restart();
+    // t1.restart();
 
-    t1.restart();
     t1.to(".one", 0.8, {
       y: 6,
       rotation: 45,
-      ease: Expo.easeInOut,
+      ease: "Expo.easeInOut",
     });
     t1.to(".two", 0.8, {
       y: -6,
       rotation: -45,
-      ease: Expo.easeInOut,
+      ease: "Expo.easeInOut",
       delay: -0.8,
     });
     t1.to(".menu", 2, {
       top: "0%",
-      ease: Expo.easeInOut,
+      ease: "Expo.easeInOut",
       delay: -0.2,
     });
 
     t1.staggerFrom(
       ".menu ul li",
       2,
-      { x: -200, opacity: 0, duration: 1.5, ease: Expo.easeInOut },
+      { x: -200, opacity: 0, duration: 1.5, ease: "Expo.easeInOut" },
       0.3
     );
     t1.reverse();
-  }, [clicked, setClicked]);
+  }, []);
   return (
     <div
       style={{
         width: "100%",
         minHeight: "100vh",
         height: "auto",
-        zIndex: "999999",
-        // position: "relative",
+        zIndex: "999",
         backgroundImage:
           "url(https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=)",
         backgroundSize: "cover",
@@ -59,8 +57,6 @@ const Nav = () => {
           paddingLeft: "4.3rem",
           width: "100%",
           top: "90%",
-          // border: "0.2rem solid red",
-
           position: "absolute",
         }}
       >
@@ -144,8 +140,8 @@ const Nav = () => {
             <li
               className="nav-list"
               onClick={() => {
-                // t1.reversed(!t1.reversed());
-                setClicked(!clicked);
+                t1.reversed(!t1.reversed());
+                // setClicked(!clicked);
               }}
             >
               <a

@@ -219,14 +219,14 @@ const ProjectS = () => {
         initial="hidden"
         variants={variants}
       >
-        <ReactPlayer
-          muted="true"
-          playing="true"
-          controls="true"
-          url="https://www.youtube.com/watch?v=vB2tO5_xuRI&t"
+        {/* <ReactPlayer
+          muted={true}
+          playing={true}
+          controls={true}
+          url={`https://www.youtube.com/watch?v=vB2tO5_xuRI&t&origin=http://localhost:4000`}
           width="100%"
           height="100%"
-        />
+        /> */}
       </motion.section>
       <ul className="tech-cont-flex">
         <h5

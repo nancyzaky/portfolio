@@ -35,13 +35,13 @@ const Project = () => {
         <div className="line-wide"></div>
         <div className="details-cont">
           <section className="left-container">
-            <ReactPlayer
-              muted="true"
-              playing="true"
-              controls="true"
-              url="https://www.youtube.com/watch?v=pNOUZm1g4YQ"
+            {/* <ReactPlayer
+              muted={true}
+              playing={true}
+              controls={true}
+              url={`https://www.youtube.com/watch?v=pNOUZm1g4YQ&origin=http://localhost:4000`}
               width="100%"
-            />
+            /> */}
             <h5 style={{ color: "rgb(103, 222, 202)", letterSpacing: "4px" }}>
               Technologies I used:
             </h5>
