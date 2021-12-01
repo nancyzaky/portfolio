@@ -147,15 +147,17 @@ const ProjectS = () => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            width: "100%",
+            width: "90%",
             height: "auto",
-            border: "0.2rem solid red",
+            marginTop: "-2rem",
+            // paddingLeft: "2rem",
+            // paddingRight: "2rem",
           }}
         >
           <li
             style={{
               display: "flex",
-              paddingRight: "4rem",
+              // paddingRight: "4rem",
               justifyContent: "center",
               alignItems: "center",
             }}

@@ -82,6 +82,7 @@ const ProjectT = () => {
                 paddingRight: "1rem",
                 justifyContent: "center",
                 alignItems: "center",
+                marginLeft: "-2rem",
               }}
             >
               <h3 style={{ fontSize: "15px" }}> Website Link</h3>
@@ -94,6 +95,7 @@ const ProjectT = () => {
                     fontSize: "30px",
                     padding: "20px",
                     color: "rgb(103, 222, 202)",
+                    paddingRight: "4rem",
                   }}
                 />
               </a>
@@ -101,9 +103,9 @@ const ProjectT = () => {
             <li
               style={{
                 display: "flex",
-                paddingRight: "1rem",
                 justifyContent: "center",
                 alignItems: "center",
+                marginLeft: "-2rem",
               }}
             >
               <h3 style={{ fontSize: "15px" }}>Github Repo</h3>
