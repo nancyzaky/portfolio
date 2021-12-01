@@ -85,7 +85,7 @@ code {
   height: 12px;
   right: 0;
   padding: 1em;
-  z-index: 999999;
+  z-index: 1;
 }
 
 span.one {
@@ -154,7 +154,6 @@ line {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  z-index: 999;
 }
 .details-cont {
   height: auto;
