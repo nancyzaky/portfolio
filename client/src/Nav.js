@@ -44,6 +44,10 @@ const Nav = () => {
         height: "100vh",
         zIndex: "5",
         position: "relative",
+        backgroundImage:
+          "url(https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=)",
+        backgroundSize: "cover",
+        backgroundRepeat: "noRepeat",
       }}
     >
       <h5

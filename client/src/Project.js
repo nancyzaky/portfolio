@@ -176,16 +176,21 @@ const Project = () => {
               </li>
             </ul>
           </motion.section>
+
+          <div
+            // className="line"
+            style={{
+              marginTop: "7rem",
+              marginBottom: "7rem",
+              width: "100%",
+              backgroundColor: "grey",
+              // paddingRight: "-5rem",
+              // paddingLeft: "-5rem",
+              height: "1px",
+            }}
+          ></div>
         </div>
-        <div
-          className="line"
-          style={{
-            marginTop: "7rem",
-            marginBottom: "7rem",
-            width: "90%",
-            backgroundColor: "grey",
-          }}
-        ></div>
+
         <ProjectS />
 
         <ProjectT />
