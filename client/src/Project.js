@@ -125,15 +125,16 @@ const Project = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                width: "100%",
+                width: "90%",
               }}
             >
               <li
                 style={{
                   display: "flex",
-                  paddingRight: "4rem",
+                  paddingRight: "1rem",
                   justifyContent: "center",
                   alignItems: "center",
+                  paddingLeft: "1rem",
                 }}
               >
                 <h3 style={{ fontSize: "15px" }}> Website Link</h3>
