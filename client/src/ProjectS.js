@@ -87,7 +87,18 @@ const ProjectS = () => {
             letterSpacing: "3px",
           }}
         >
-          Hotel chain web app featuring:
+          <li
+            style={{
+              fontSize: "20px",
+              fontWeight: "light",
+              letterSpacing: "3px",
+              paddingBottom: "2rem",
+              listStyle: "none",
+            }}
+          >
+            Hotel booking web app featuring:
+          </li>
+
           <li
             style={{
               fontSize: "20px",
@@ -96,7 +107,7 @@ const ProjectS = () => {
               paddingBottom: "2rem",
             }}
           >
-            User Authentication and Validation.
+            User credentials Authentication and Validation.
           </li>
           <li
             style={{
@@ -106,7 +117,7 @@ const ProjectS = () => {
               paddingBottom: "2rem",
             }}
           >
-            Manage, Book, cancel and check rooms availability.
+            Manage, Book, cancel, check rooms availability and earn points.
           </li>
           <li
             style={{
@@ -116,8 +127,7 @@ const ProjectS = () => {
               paddingBottom: "2rem",
             }}
           >
-            Check near by attractions, add planned to activities to activities
-            calendar.
+            Check near by attractions, add plans to activities calendar.
           </li>
           <li
             style={{
@@ -128,7 +138,7 @@ const ProjectS = () => {
             }}
           >
             View detailed information/pictures about the hotel, rooms, location,
-            travel restrictions. -Check weather predictions.
+            travel restrictions and check weather predictions.
           </li>
           <li
             style={{

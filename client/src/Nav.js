@@ -10,18 +10,19 @@ const Nav = () => {
   t1 = gsap.timeline({ paused: true });
 
   useEffect(() => {
-    t1.to(".one", 0.8, {
+    t1.to(".one", 0.5, {
       y: "6",
       rotation: "45",
       ease: "Expo.easeInOut",
+      delay: "-0.8",
     });
-    t1.to(".two", 0.8, {
+    t1.to(".two", 0.5, {
       y: "-6",
       rotation: "-45",
       ease: "Expo.easeInOut",
       delay: "-0.8",
     });
-    t1.to(".menu", 2, {
+    t1.to(".menu", 0.7, {
       top: "0%",
       ease: "Expo.easeInOut",
       delay: "-0.2",
@@ -29,8 +30,8 @@ const Nav = () => {
 
     t1.staggerFrom(
       ".menu ul li",
-      2,
-      { x: "-200", opacity: "0", duration: "1.5", ease: "Expo.easeInOut" },
+      1.5,
+      { x: "-200", opacity: "0", ease: "Expo.easeInOut", duration: 1.5 },
       0.3
     );
     t1.reverse();
@@ -62,6 +63,17 @@ const Nav = () => {
       >
         Projects I've built
       </h3>
+
+      <div
+        className="toggle-btn"
+        onClick={() => {
+          t1.reversed(!t1.reversed());
+        }}
+      >
+        <span className="one"></span>
+        <span className="two"></span>
+      </div>
+
       <h5
         className="header-top"
         initial={{ opacity: 0.1, y: "100%" }}
@@ -72,9 +84,9 @@ const Nav = () => {
           duration: "1",
         }}
       >
-        Hi, my name is
+        Welcome to my portfolio, my name is
       </h5>
-      <motion.h1
+      <motion.h2
         className="header"
         initial={{ opacity: 0.1, y: "-100%" }}
         animate={{ opacity: 1, y: 0, x: -100 }}
@@ -86,18 +98,8 @@ const Nav = () => {
       >
         {" "}
         Nancy Zaky
-      </motion.h1>
-      <div
-        className="toggle-btn"
-        onClick={() => {
-          console.log("clicked");
-          // t1.play();
-          t1.reversed(!t1.reversed());
-        }}
-      >
-        <span className="one"></span>
-        <span className="two"></span>
-      </div>
+      </motion.h2>
+
       <motion.h5
         className="header-bottom"
         initial={{ opacity: "0.1", y: "-200%" }}
@@ -108,10 +110,10 @@ const Nav = () => {
           duration: "3",
         }}
       >
-        <ImQuotesLeft /> I'm a full stack web developer, I love Exploring
-        technologies and frameworks with the goal of constantly refining my
-        coding skills. I love to build pretty things and I love to solve
-        problems and that's why coding has been my true passion.
+        <ImQuotesLeft /> I'm a full stack web developer, my main focus has been
+        exploring new technologies and frameworks with the goal of constantly
+        refining my coding skills. I love to create pretty things and to solve
+        problems and that's why coding is my true passion.
         <ImQuotesRight />
       </motion.h5>
 
@@ -199,6 +201,22 @@ const Nav = () => {
           </ul>
         </div>
       </div>
+      <motion.button
+        className="btn"
+        whileHover={{ scale: 1.08, color: "pink" }}
+      >
+        <a
+          href="mailto:nancyzaky29@gmail.com"
+          style={{
+            textDecoration: "none",
+            letterSpacing: "3px",
+            fontWeight: "bold",
+            color: "black",
+          }}
+        >
+          Email Me
+        </a>
+      </motion.button>
     </div>
   );
 };

@@ -154,12 +154,12 @@ const ProjectT = () => {
           }}
         >
           <p style={{ height: "auto" }}>
-            Dressify app was my first experience developing a full stack web
+            Dressify was my first experience developing a full stack web
             app, working for the first time with databases, creating my backend
             logic, APIs, and Servers. Not only I have learned alot about Backend
-            development by building Dressify, but also I improved my
+            development by building Dressify but also I improved my
             JavaScript/React skills immensely.<br></br> Dressify features a
-            modern, easy to navigate shopping app. Make an outfit by the drag
+            modern, easy to navigate shopping . Make an outfit by the drag
             and drop feature, make a wish list, shop, filter categories and
             more.
           </p>

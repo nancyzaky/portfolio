@@ -17,7 +17,7 @@ const Project = () => {
       opacity: 1,
       scale: 1.01,
       x: 0,
-      transition: { duration: 1, x: { type: "spring", stiffness: 80 } },
+      transition: { duration: 2, x: { type: "spring", stiffness: 80 } },
     },
   };
   useEffect(() => {
@@ -104,11 +104,11 @@ const Project = () => {
                 letterSpacing: "3px",
               }}
             >
-              A web app with a responsive web design for shopping. View Top
-              selling items, detailed information/pictures about each item,
-              create and save a favorite/wish list of products from different
-              categories, filter products based on price range, shop the look
-              and more.
+              A web app with a responsive web design for furniture shopping.
+              View Top selling items, detailed information/pictures about each
+              item, create and save a favorite/wish list of products from
+              different categories, filter products based on price range, shop
+              the look and more.
             </p>
             <ul
               style={{

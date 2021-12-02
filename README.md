@@ -7,8 +7,6 @@ backend together, and easily deploy them to Heroku.
 
 ## Requirements
 
-,
-?,
 
   <!-- "dependencies": {
     "dotenv": "^10.0.0",

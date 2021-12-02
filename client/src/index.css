@@ -30,12 +30,14 @@ code {
 .header {
   position: absolute;
   color: rgb(103, 222, 202);
-  top: 20%;
-  left: 48%;
+  top: 15%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-weight: lighter;
   font-size: 48px;
   letter-spacing: 4px;
+  width: 40%;
+  margin-left: 2rem;
   /* padding-bottom: 4rem; */
 }
 .project-header {
@@ -62,13 +64,16 @@ code {
 }
 .header-top {
   position: absolute;
-  color: pink;
-  top: 7%;
-  left: 30%;
+  color: rgb(255, 255, 255);
+  top: 10%;
+  left: 43%;
   transform: translate(-50%, -50%);
   font-weight: lighter;
   font-size: 20px;
   font-weight: bold;
+  letter-spacing: 3px;
+  width: 40%;
+  margin-left: 2rem;
 }
 .header-bottom {
   position: absolute;
@@ -82,6 +87,8 @@ code {
   letter-spacing: 3px;
   width: 70%;
   height: auto;
+  justify-content: center;
+  text-align: center;
 }
 .toggle-btn {
   position: sticky;
@@ -152,6 +159,15 @@ line {
 .link:hover {
   color: rgb(236, 243, 134);
 }
+.btn {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: rgb(236, 234, 93);
+  border: 1px solid yellow;
+  color: black;
+}
 .project-cont {
   width: 100%;
   height: auto;
@@ -197,9 +213,9 @@ line {
   border-radius: 0.4rem;
   box-shadow: 0px 10px 18px #717273;
   color: white;
-  margin-left: 0.5rem;
+  margin-left: 10%;
   margin-top: 3rem;
-  width: 98%;
+  width: 92%;
   max-height: 80vh;
 }
 
@@ -248,8 +264,12 @@ line {
   min-height: 50vh;
   padding: 20px;
   box-shadow: 0px 10px 18px #717273;
-  width: 95%;
+  width: 90%;
   max-height: 80vh;
+  float: right;
+  justify-content: end;
+
+  margin-left: 10%;
 }
 .second-left {
   border-radius: 0.4rem;
@@ -282,7 +302,9 @@ line {
   align-items: center;
   /* padding-bottom: 2rem; */
 }
-
+/* li {
+  list-style: none;
+} */
 @media screen and (max-width: 992px) {
   .tech-cont-flex {
     flex-direction: column;
@@ -312,7 +334,7 @@ line {
   margin-left: 6rem;
 }
 .column {
-  min-width: max-content;
+  /* min-width: max-content; */
   width: auto;
   height: auto;
   max-height: 130vh;
@@ -322,7 +344,6 @@ line {
   border-radius: 0.4rem;
 }
 .makeup-bottom {
-  border: 0.2rem solid red;
   height: 50vh;
   width: 100%;
   margin-top: 2rem;
