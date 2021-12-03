@@ -112,8 +112,9 @@ const Nav = () => {
       >
         <ImQuotesLeft /> I'm a full stack web developer, my main focus has been
         exploring new technologies and frameworks with the goal of constantly
-        refining my coding skills. I love to create pretty things and to solve
-        problems and that's why coding is my true passion.
+        refining my coding skills.
+        {/* I love to create pretty things and to solve */}
+        {/* problems and that's why coding is my true passion. */}
         <ImQuotesRight />
       </motion.h5>
 
