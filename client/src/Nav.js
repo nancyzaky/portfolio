@@ -143,8 +143,7 @@ const Nav = () => {
             <li
               className="nav-list"
               onClick={() => {
-                // t1.reversed(!t1.reversed());
-                setClicked(!clicked);
+                t1.reversed(!t1.reversed());
               }}
             >
               <a
@@ -158,7 +157,7 @@ const Nav = () => {
             <li
               className="nav-list"
               onClick={() => {
-                setClicked(!clicked);
+                // setClicked(!clicked);
                 t1.reversed(!t1.reversed());
               }}
             >
