@@ -39,7 +39,7 @@ const Project = () => {
               muted={true}
               playing={true}
               controls={true}
-              url={`https://www.youtube.com/watch?v=pNOUZm1g4YQ&origin=http://localhost:4000`}
+              url={`https://www.youtube.com/watch?v=nkJAqUy2Tdg&t=45s&origin=http://localhost:4000`}
               width="100%"
             />
             <h5 style={{ color: "rgb(103, 222, 202)", letterSpacing: "4px" }}>
@@ -83,15 +83,15 @@ const Project = () => {
               style={{
                 marginLeft: "4%",
                 marginRight: "4%",
-                letterSpacing: "3px",
+                letterSpacing: "5px",
                 color: "rgb(103, 222, 202)",
               }}
             >
-              1.Furniture App{" "}
+              1.Homely{" "}
             </h3>
             <div
               className="line"
-              style={{ marginLeft: "4%", marginRight: "4%" }}
+              style={{ marginLeft: "4%", marginRight: "4%", width: "30%" }}
             ></div>
             <p
               style={{

@@ -32,7 +32,7 @@ const ProjectT = () => {
           muted={true}
           playing={true}
           controls={true}
-          url={`https://www.youtube.com/watch?v=CycL0dEcMjY&t=62s&origin=http://localhost:4000`}
+          url={`https://www.youtube.com/watch?v=kgCmJtm75jg&t=53s&origin=http://localhost:4000`}
           width="100%"
           height="100%"
         />
@@ -154,14 +154,13 @@ const ProjectT = () => {
           }}
         >
           <p style={{ height: "auto" }}>
-            Dressify was my first experience developing a full stack web
-            app, working for the first time with databases, creating my backend
+            Dressify was my first experience developing a full stack web app,
+            working for the first time with databases, creating my backend
             logic, APIs, and Servers. Not only I have learned alot about Backend
             development by building Dressify but also I improved my
             JavaScript/React skills immensely.<br></br> Dressify features a
-            modern, easy to navigate shopping . Make an outfit by the drag
-            and drop feature, make a wish list, shop, filter categories and
-            more.
+            modern, easy to navigate shopping . Make an outfit by the drag and
+            drop feature, make a wish list, shop, filter categories and more.
           </p>
         </div>
         {/* </section> */}

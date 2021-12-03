@@ -70,12 +70,21 @@ const ProjectS = () => {
           style={{
             marginLeft: "4%",
             marginRight: "4%",
-            letterSpacing: "3px",
+            letterSpacing: "5px",
             color: "rgb(103, 222, 202)",
           }}
         >
-          2.Travel-App{" "}
+          2.TripIt{" "}
         </h3>
+        <div
+          className="line"
+          style={{
+            marginLeft: "4%",
+            marginRight: "4%",
+            width: "30%",
+            marginBottom: "2rem",
+          }}
+        ></div>
         <div
           style={{
             width: "90%",
@@ -89,10 +98,10 @@ const ProjectS = () => {
         >
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
-              paddingBottom: "2rem",
+              paddingBottom: "1rem",
               listStyle: "none",
             }}
           >
@@ -101,7 +110,7 @@ const ProjectS = () => {
 
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
               paddingBottom: "2rem",
@@ -111,7 +120,7 @@ const ProjectS = () => {
           </li>
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
               paddingBottom: "2rem",
@@ -121,7 +130,7 @@ const ProjectS = () => {
           </li>
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
               paddingBottom: "2rem",
@@ -131,7 +140,7 @@ const ProjectS = () => {
           </li>
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
               paddingBottom: "2rem",
@@ -142,7 +151,7 @@ const ProjectS = () => {
           </li>
           <li
             style={{
-              fontSize: "20px",
+              fontSize: "15px",
               fontWeight: "light",
               letterSpacing: "3px",
               paddingBottom: "2rem",
