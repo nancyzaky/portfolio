@@ -110,15 +110,18 @@ const Nav = () => {
           duration: "3",
         }}
       >
-        <ImQuotesLeft /> I'm a full stack web developer, my main focus has been
-        exploring new technologies and frameworks with the goal of constantly
-        refining my coding skills.
+        {/* <ImQuotesLeft /> I'm a full stack Software Developer, my main focus has */}
+        I'm a full stack Software Developer, my main focus has been exploring
+        new technologies and frameworks with the goal of constantly refining my
+        coding skills. My unique experience of living and working in Dubai as a
+        flight attendant demonstrates my excellent communication skills and
+        ability to collaborate in multicultural environments.
         {/* I love to create pretty things and to solve */}
         {/* problems and that's why coding is my true passion. */}
-        <ImQuotesRight />
+        {/* <ImQuotesRight /> */}
       </motion.h5>
 
-      <div className="menu">
+      <div className="menu" style={{ display: "flex" }}>
         <div className="data">
           <ul>
             <motion.li
@@ -199,6 +202,55 @@ const Nav = () => {
               </a>
             </li>
           </ul>
+        </div>
+        <div
+          style={{
+            width: "50%",
+            float: "right",
+            color: "white",
+            height: "50%",
+
+            textAlign: "center",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <h3 style={{ textAlign: "center" }}> A little more about me</h3>
+          <br></br>{" "}
+          <section
+            style={{
+              width: "80%",
+              letterSpacing: "2px",
+              textAlign: "center",
+              justifyContent: "end",
+              lineHeight: "1.6",
+              marginLeft: "4rem",
+            }}
+          >
+            <p>
+              Hi, My name is Nancy, I'm originally Egyptian, lived and worked as
+              a flight attendant in Dubai for 5 years before I moved to The
+              United States. I loved my job, I lost count of how many countries
+              I travelled to, it was a great experience and I met amazing
+              people, made friends from all over the world. In 2020, due to the
+              pandemic I was faced with the decision of having to leave
+              everything behind and start from the scratch, I had to quit
+              Emirates Airline, I had no idea what the next chapter will be, it
+              was scary but it pushed me to explore and figuring out what I'm
+              really passionate about. Since my best friend is a software
+              engineer, she inspired my to start an HTML Udemy course, it was
+              just out of curiosity, I spent hours and hours on my computer and
+              never got bored for a minute, I realized I had such passion for
+              coding and wanting to learn so much so quick, I just wanted to
+              create things, I was so happy when I created my first HTML page,
+              solved my first Algorithm problem and I knew that I should pursue
+              a career in Tech. I worked as a waitress preparing to start The
+              Flatiron school and pursue my dream job, It was an intense 5
+              months coding bootcamp and I learned so much in that short period
+              of time and I finally graduated and I'm excited to learn more.
+              Thank you for reading my story :)
+            </p>
+          </section>
         </div>
       </div>
       <motion.button

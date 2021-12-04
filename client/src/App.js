@@ -16,7 +16,6 @@ const App = () => {
           <Route exact path="/">
             <Nav />
             <Project />
-            {/* <Forth /> */}
           </Route>
 
           <Route exact path="/resume.pdf">

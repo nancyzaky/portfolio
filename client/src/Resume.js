@@ -15,7 +15,7 @@ const Resume = () => {
         width: "100%",
         justifyContent: "center",
         textAlign: "center",
-        alignItems: "center",
+        // alignItems: "center",
         display: "grid",
         height: "350vh",
         backgroundImage:
