@@ -11,7 +11,7 @@ const Forth = () => {
   const [contRef, inContView] = useInView();
   const [contRightRef, inRightContView] = useInView();
   const variants = {
-    hidden: { opacity: 0.1, y: "300%" },
+    hidden: { opacity: 0.1, y: "100%" },
     visible: {
       opacity: 1,
       scale: 1.01,
@@ -94,7 +94,7 @@ const Forth = () => {
               muted={true}
               playing={true}
               controls={true}
-              url={`https://www.youtube.com/watch?v=va0AYjBYYh0&origin=http://localhost:4000`}
+              url={`https://www.youtube.com/watch?v=VEqInyXUWCg&t=76s&origin=http://localhost:4000`}
               width="100%"
               height="100%"
             />
@@ -112,8 +112,9 @@ const Forth = () => {
               }}
             >
               {" "}
-              Shop different makeup brands, view products details, shades and
-              price. view top picks catalogue.
+              GLOW UP was my first project using React, I designed and developed
+              it for school and study purposes.<br></br> Shop different makeup
+              brands, view products details, shades and prices.
               <h5
                 style={{
                   color: "rgb(103, 222, 202)",
@@ -180,7 +181,7 @@ const Forth = () => {
               muted={true}
               playing={true}
               controls={true}
-              url={`https://www.youtube.com/watch?v=VEqInyXUWCg&t=76s&origin=http://localhost:4000`}
+              url={`https://www.youtube.com/watch?v=va0AYjBYYh0&origin=http://localhost:4000`}
               width="100%"
               height="100%"
             />
