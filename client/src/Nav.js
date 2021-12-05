@@ -215,7 +215,10 @@ const Nav = () => {
             alignItems: "center",
           }}
         >
-          <h3 style={{ textAlign: "center" }}> A little more about me</h3>
+          <h3 style={{ textAlign: "center", color: "pink" }}>
+            {" "}
+            A little more about me
+          </h3>
           <br></br>{" "}
           <section
             style={{
@@ -227,7 +230,7 @@ const Nav = () => {
               marginLeft: "4rem",
             }}
           >
-            <p>
+            <p style={{ marginTop: "-2rem" }}>
               Hi, My name is Nancy, I'm originally Egyptian, lived and worked as
               a flight attendant in Dubai for 5 years before I moved to The
               United States. I loved my job, I lost count of how many countries
@@ -238,7 +241,7 @@ const Nav = () => {
               Emirates Airline, I had no idea what the next chapter will be, it
               was scary but it pushed me to explore and figuring out what I'm
               really passionate about. Since my best friend is a software
-              engineer, she inspired my to start an HTML Udemy course, it was
+              engineer, she inspired me to start an HTML Udemy course, it was
               just out of curiosity, I spent hours and hours on my computer and
               never got bored for a minute, I realized I had such passion for
               coding and wanting to learn so much so quick, I just wanted to
