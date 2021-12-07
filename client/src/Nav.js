@@ -203,7 +203,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div
+        {/* <div
           style={{
             width: "50%",
             float: "right",
@@ -254,7 +254,7 @@ const Nav = () => {
               Thank you for reading my story :)
             </p>
           </section>
-        </div>
+        </div> */}
       </div>
       <motion.button
         className="btn"
