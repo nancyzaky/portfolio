@@ -251,7 +251,7 @@ const Nav = () => {
               Flatiron school and pursue my dream job, It was an intense 5
               months coding bootcamp and I learned so much in that short period
               of time and I finally graduated and I'm excited to learn more.
-              Thank you for reading my story :).
+              Thank you for reading my story :)
             </p>
           </section>
         </div>
