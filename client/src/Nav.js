@@ -258,7 +258,7 @@ const Nav = () => {
       </div>
       <motion.button
         className="btn"
-        whileHover={{ scale: 1.08, color: "pink" }}
+        whileHover={{ scale: 1.07, color: "pink" }}
       >
         <a
           href="mailto:nancyzaky29@gmail.com"
